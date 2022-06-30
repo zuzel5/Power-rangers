@@ -1,37 +1,40 @@
-body{
+body {
     min-height: 200vh;
-    margin:0;
+    margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-header{
+header {
     overflow: hidden;
-    position:relative;
+    position: relative;
     min-height: 100vh;
     width: 100%;
 }
-header .box{
+
+header .box {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    background-image: url(https://i.picsum.photos/id/964/1600/900);
+    transform: translate(-50%, -50%);
+    background-image: url(https://i.picsum.photos/id/964/1600/900.jpg?hmac=gnlqxgal-0k44FEWhr5cW4O7yc6slHNGLnlLlSoZ7e0);
     background-size: cover;
     background-repeat: no-repeat;
     width: 130%;
     height: 130%;
     filter: brightness(30%);
 }
+
 header .content h1 {
     font-size: 4em;
     margin-bottom: 0;
     color: #fff;
 }
+
 header .content p {
     margin-bottom: 2.5em;
     color: #9ea2a5;
-    font-size:1.2em;
+    font-size: 1.2em;
 }
 
 header .btn {
@@ -43,7 +46,7 @@ header .btn {
     border-radius: 30px;
     letter-spacing: 0.3rem;
     -webkit-transition: 0.3s;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
 header .btn:hover {
