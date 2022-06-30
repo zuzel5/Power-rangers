@@ -1,5 +1,5 @@
 body {
-    min-height: 200vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -17,12 +17,20 @@ header .box {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(https://i.picsum.photos/id/964/1600/900.jpg?hmac=gnlqxgal-0k44FEWhr5cW4O7yc6slHNGLnlLlSoZ7e0);
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1110100/ss_d61bfcb38daff7dc54bcf5bc2a44a024343331ee.1920x1080.jpg?t=1621987614);
     background-size: cover;
     background-repeat: no-repeat;
     width: 130%;
     height: 130%;
     filter: brightness(30%);
+}
+
+header .content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
 }
 
 header .content h1 {
